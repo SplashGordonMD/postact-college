@@ -1,0 +1,12 @@
+<h1>Add a new School</h1>
+<%= form_tag '/schools', method: :post do %>
+  <div>
+    <%= label_tag :name %>
+    <%= text_field_tag :name %>
+   </div>
+   <div>
+    <%= label_tag :place %>
+    <%= text_field_tag :place %>
+   </div> 
+  <%= submit_tag "Add School" %>
+ <% end %> 

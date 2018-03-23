@@ -1,0 +1,7 @@
+<h1>School Name and Location</h1>
+<h2>Name: <%= @school.name %></h2>
+<p>Place: <%= @school.place %></p>
+
+<%= link_to "Remove this school", "/schools/#{@school.id}", method: :delete %>
+
+
